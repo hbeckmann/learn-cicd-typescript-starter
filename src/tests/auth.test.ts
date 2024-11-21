@@ -4,6 +4,6 @@ import { getAPIKey } from '../api/auth';
 
 describe('getAPIKey', () => {
     test('empty headers should return null', () => {
-        expect(getAPIKey({})).toBe(3);
+        expect(getAPIKey({})).toBe(null);
     });
 });
