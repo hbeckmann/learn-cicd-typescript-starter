@@ -24,8 +24,3 @@ export function assertDbConnection() {
     throw new Error("Database connection is not available");
   }
 }
-
-function unused() {
-  // this function does nothing
-  // and is called nowhere
-}
