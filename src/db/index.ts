@@ -1,4 +1,4 @@
-import { drizzle, LibSQLDatabase } from "drizzle-orm/libsql";
+import { drizzle } from "drizzle-orm/libsql";
 import { config } from "../config.js";
 import * as schema from "./schema.js";
 
@@ -23,4 +23,9 @@ export function assertDbConnection() {
   if (!db) {
     throw new Error("Database connection is not available");
   }
+}
+
+function unused() {
+  // this function does nothing
+  // and is called nowhere
 }
