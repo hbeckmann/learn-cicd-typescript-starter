@@ -39,11 +39,3 @@ function generateRandomSHA256Hash(): string {
     .update(crypto.randomBytes(32))
     .digest("hex");
 }
-
-// notely-dev-1: is this still used?
-export function isValidEmail(email: string): boolean {
-  const emailExpression =
-    /^([a-zA-Z0-9_])+(([a-zA-Z0-9])+)+([a-zA-Z0-9]{2,4})+$/;
-
-  return emailExpression.test(email);
-}
