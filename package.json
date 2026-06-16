@@ -21,6 +21,7 @@
     "@types/eslint-plugin-security": "^3.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
+    "@vitest/coverage-v8": "^4.1.9",
     "drizzle-kit": "^0.28.1",
     "eslint": "^9.39.2",
     "eslint-plugin-security": "^3.0.1",
